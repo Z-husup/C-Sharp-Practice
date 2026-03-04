@@ -8,28 +8,4 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="Array\" />
-      <Folder Include="Basic Algorithm\" />
-      <Folder Include="Basic\" />
-      <Folder Include="Conditional Statement\" />
-      <Folder Include="Data Types\" />
-      <Folder Include="Date Time\" />
-      <Folder Include="Exception Handling\" />
-      <Folder Include="File Handling\" />
-      <Folder Include="For Loop\" />
-      <Folder Include="Function\" />
-      <Folder Include="LeetCode\" />
-      <Folder Include="LINQ\" />
-      <Folder Include="Math\" />
-      <Folder Include="Multithreading\" />
-      <Folder Include="OOP\" />
-      <Folder Include="Recursion\" />
-      <Folder Include="Regular Expression\" />
-      <Folder Include="Searching and Sorting\" />
-      <Folder Include="Stack\" />
-      <Folder Include="String\" />
-      <Folder Include="Structure\" />
-    </ItemGroup>
-
 </Project>
