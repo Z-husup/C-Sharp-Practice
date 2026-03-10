@@ -62,6 +62,7 @@
  * An object whose data cannot be changed after it is created.
  */
 
+
 public static class Examples
 {
     // Demonstrates record construction and value printing.
@@ -76,6 +77,7 @@ public static class Examples
     {
         var a = new Person("Ana", 25);
         var b = new Person("Ana", 25);
+        var c = new PersonStruct();
         Console.WriteLine(a == b);
     }
 
@@ -104,6 +106,8 @@ public static class Examples
 }
 
 public record Person(string Name, int Age);
+
+public struct PersonStruct(string Name, int Age);
 
 public readonly record struct Point(int X, int Y);
 

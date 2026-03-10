@@ -25,8 +25,11 @@ public static class LessonTasks
     // Expected Output/Checks: Output must be deterministic and easy to verify.
     public static void Task01_VariablesAndOutput(TaskSetup setup)
     {
-        // TODO: Implement task.
-        throw new NotImplementedException("Finish task using instructions above.");
+        string name = "Zhusup";
+        int numbers = 123;
+        double float_numers = 123.123;
+        Console.WriteLine(name);
+        Console.Write(numbers);
     }
 
     // Task 2: TypeConversion

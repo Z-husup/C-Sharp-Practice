@@ -73,6 +73,7 @@ public static class Examples
     {
         var money = new Money(10m, "USD");
         Console.WriteLine($"{money.Amount} {money.Currency}");
+        Money.Void();
     }
 
     // Shows behavior methods defined inside struct types.
@@ -106,4 +107,9 @@ public readonly struct Money(decimal amount, string currency)
 {
     public decimal Amount { get; } = amount;
     public string Currency { get; } = currency;
+
+    public static void Void()
+    {
+        
+    }
 }
